@@ -1,21 +1,21 @@
 @font-face {
     font-family:'ProximaNovaSoft-Bold';
-    src: url("fonts/ProximaNovaSoft-Bold.otf") format('otf');
+    src: url("/assets/fonts/ProximaNovaSoft-Bold.otf") format('otf');
 }
 
 @font-face {
     font-family:'ProximaNovaSoft-Medium';
-    src: url("fonts/ProximaNovaSoft-Medium.otf") format('otf');
+    src: url("/assets/fonts/ProximaNovaSoft-Medium.otf") format('otf');
 }
 
 @font-face {
     font-family:'ProximaNovaSoft-Regular';
-    src: url("fonts/ProximaNovaSoft-Regular.otf") format('otf');
+    src: url("/assets/fonts/ProximaNovaSoft-Regular.otf") format('otf');
 }
 
 @font-face {
     font-family:'ProximaNovaSoft-SemiBold';
-    src: url("fonts/ProximaNovaSoft-SemiBold.otf") format('otf');
+    src: url("assets/fonts/ProximaNovaSoft-SemiBold.otf") format('otf');
 }
 
 .animated {
@@ -3902,9 +3902,8 @@ Created using IcoMoon - icomoon.io
   display: block;
   text-decoration: none;
   position: relative;
-  text-transform: uppercase;
   cursor: pointer;
-  font-size: 0.7142em;
+  font-size: 16px;
   padding: 10px 8px;
   line-height: 1.625rem;
 }
@@ -3983,17 +3982,18 @@ Created using IcoMoon - icomoon.io
 .sidebar .logo,
 .off-canvas-sidebar .logo {
   position: relative;
-  padding: 0.5rem 0.7rem;
+  padding: 44px;
   z-index: 4;
+   background-image: url('/assets/img/menu-header-bg@2x.png')
 }
 
 .sidebar .logo a.logo-mini,
 .off-canvas-sidebar .logo a.logo-mini {
   opacity: 1;
   float: left;
-  width: 34px;
+  width: 55px;
   text-align: center;
-  margin-left: 10px;
+  margin-left: -19px;
   margin-right: 12px;
 }
 
@@ -4031,7 +4031,6 @@ Created using IcoMoon - icomoon.io
 
 .sidebar .logo .simple-text,
 .off-canvas-sidebar .logo .simple-text {
-  text-transform: uppercase;
   padding: 0.5rem 0;
   display: block;
   white-space: nowrap;
