@@ -1909,8 +1909,10 @@ h5,
 
 h6,
 .h6 {
-  font-size: 1em;
-  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 16px;
+  background-color: #0000004a
 }
 
 p.description {
@@ -3681,10 +3683,9 @@ Created using IcoMoon - icomoon.io
 }
 
 .table>thead>tr>th {
-  border-bottom-width: 1px;
-  font-size: 1.45em;
-  font-weight: 300;
+  font-size: 16px;
   border: 0;
+  color: #959595;
 }
 
 .table .radio,
@@ -3708,6 +3709,17 @@ Created using IcoMoon - icomoon.io
   left: -3px;
 }
 
+.content_receive{
+  background-color: #F1f1f1;
+}
+
+td {
+  font-size: 14px;
+  margin-top: -21px;
+  color: #959595;
+  opacity: 0.6;
+}
+
 .table>thead>tr>th,
 .table>tbody>tr>th,
 .table>tfoot>tr>th,
@@ -3716,6 +3728,7 @@ Created using IcoMoon - icomoon.io
 .table>tfoot>tr>td {
   padding: 12px 7px;
   vertical-align: middle;
+  border-top: 0px;
 }
 
 .table .th-description {
@@ -4188,11 +4201,11 @@ Created using IcoMoon - icomoon.io
   transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
 
-.main-panel>.content {
+/* .main-panel>.content {
   padding: 0 30px 30px;
   min-height: calc(100vh - 123px);
-  margin-top: -30px;
-}
+
+} */
 
 .main-panel>.navbar {
   margin-bottom: 0;
@@ -5305,9 +5318,9 @@ Created using IcoMoon - icomoon.io
     display: none;
   }
   .main-panel .content {
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color:#fff;
   }
+  
   .footer nav {
     display: block;
     margin-bottom: 5px;
