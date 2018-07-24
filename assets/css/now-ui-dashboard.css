@@ -1,3 +1,23 @@
+@font-face {
+    font-family:'ProximaNovaSoft-Bold';
+    src: url("fonts/ProximaNovaSoft-Bold.otf") format('otf');
+}
+
+@font-face {
+    font-family:'ProximaNovaSoft-Medium';
+    src: url("fonts/ProximaNovaSoft-Medium.otf") format('otf');
+}
+
+@font-face {
+    font-family:'ProximaNovaSoft-Regular';
+    src: url("fonts/ProximaNovaSoft-Regular.otf") format('otf');
+}
+
+@font-face {
+    font-family:'ProximaNovaSoft-SemiBold';
+    src: url("fonts/ProximaNovaSoft-SemiBold.otf") format('otf');
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1845,8 +1865,11 @@ h1 small,
 
 h2,
 .h2 {
-  font-size: 2.5em;
-  margin-bottom: 30px;
+  font-size: 32px;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #fff;
+  font-family: ProximaNovaSoft-Semibold, sans-serif;
 }
 
 h3,
@@ -1858,10 +1881,13 @@ h3,
 
 h4,
 .h4 {
-  font-size: 1.714em;
+  font-size: 24px;
   line-height: 1.45em;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 15px;
+  text-align: center;
+  color: #FFF;
+  font-family: ProximaNovaSoft-Semibold, sans-serif;
 }
 
 h4+.category,
@@ -1873,16 +1899,18 @@ h4.title+.category,
 
 h5,
 .h5 {
-  font-size: 1.57em;
+  font-size: 16px;
   line-height: 1.4em;
   margin-bottom: 15px;
+  text-align: center;
+  color: #FFF;
+  font-family: ProximaNovaSoft-Regular, sans-serif;
 }
 
 h6,
 .h6 {
   font-size: 1em;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 p.description {
@@ -2340,7 +2368,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 .navbar.navbar-absolute {
   position: absolute;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 0px;
   z-index: 1029;
 }
 
@@ -2447,8 +2475,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 }
 
 .navbar .navbar-brand {
-  text-transform: uppercase;
-  font-size: 0.8571em;
+  font-size: 20px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem;
@@ -2474,22 +2501,22 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 }
 
 .navbar.navbar-transparent {
-  background-color: transparent !important;
+  background-color: #0000004f !important;
   box-shadow: none;
   color: #FFFFFF;
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
-  color: #888;
+  color: #FFF;
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn).disabled {
   opacity: .5;
-  color: #888;
+  color: #FFF;
 }
 
 .navbar.bg-white:not(.navbar-transparent) .button-bar {
-  background: #888;
+  background: #FFF;
 }
 
 .navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
@@ -2497,15 +2524,15 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
   background-color: rgba(222, 222, 222, 0.8);
-  color: #888;
+  color: #FFF;
 }
 
 .navbar.bg-white:not(.navbar-transparent) .logo-container {
-  border: 1px solid #888;
+  border: 1px solid #Fff;
 }
 
 .bg-default {
-  background-color: #888 !important;
+  background-color: #FFF !important;
 }
 
 .bg-primary {
@@ -3922,7 +3949,6 @@ Created using IcoMoon - icomoon.io
   font-size: 20px;
   float: left;
   margin-right: 12px;
-  line-height: 30px;
   width: 34px;
   text-align: center;
   color: #8D52BA;
@@ -4194,10 +4220,10 @@ Created using IcoMoon - icomoon.io
   height: 260px;
   padding-top: 80px;
   padding-bottom: 45px;
-  background: #141E30;
+  background: #8D52BA;
   /* fallback for old browsers */
-  background: -webkit-gradient(linear, left top, right top, from(#0c2646), color-stop(60%, #204065), to(#2a5788));
-  background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+  /* background: -webkit-gradient(linear, left top, right top, from(#0c2646), color-stop(60%, #204065), to(#2a5788));
+  background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%); */
   position: relative;
   overflow: hidden;
 }
