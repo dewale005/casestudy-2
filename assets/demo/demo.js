@@ -87,9 +87,9 @@ demo = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
         datasets: [{
           label: "Active Users",
-          borderColor: "#f96332",
+          borderColor: "#8D52BA",
           pointBorderColor: "#FFF",
-          pointBackgroundColor: "#f96332",
+          pointBackgroundColor: "#8D52BA",
           pointBorderWidth: 2,
           pointHoverRadius: 4,
           pointHoverBorderWidth: 1,
@@ -319,9 +319,9 @@ demo = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
         datasets: [{
           label: "Active Users",
-          borderColor: "#f96332",
+          borderColor: "#8D52BA",
           pointBorderColor: "#FFF",
-          pointBackgroundColor: "#f96332",
+          pointBackgroundColor: "#8D52BA",
           pointBorderWidth: 2,
           pointHoverRadius: 4,
           pointHoverBorderWidth: 1,
